@@ -49,7 +49,7 @@ public class BadIOGUI {
          */
         final JPanel panel = new JPanel ();
         final JButton read = new JButton("Read");
-        panel.setLayout(new BoxLayout(panel, BoxLayout.LINE_AXIS));
+        panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
         canvas.add(panel, BorderLayout.CENTER);
         panel.add(write);
         panel.add(read);
